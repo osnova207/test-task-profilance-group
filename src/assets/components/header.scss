@@ -1,0 +1,22 @@
+.Header {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px #1b2b35;
+
+  &__nav {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 10px;
+
+    .nav-item:first-child {
+        margin-right: 15px;
+    }
+  }
+
+
+}
